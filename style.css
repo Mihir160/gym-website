@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+    color: white;
+
+}
+.menu-items{
+    display: flex;
+    padding-left: 40%;
+    padding-top: 10px;
+    margin-left: -10%;
+}
+.menu-items li{
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    }
+.menu-items li:hover{
+    color: red;
+}
+.typed-out{
+    overflow: hidden;
+    font-style: italic;
+    border-right: .15em solid red;
+    white-space: nowrap;
+    font-size: 40px;
+    animation: typing 2.5s steps(20, end) forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.home{
+    display: flex;
+    padding: 15px;
+    background-color: black;
+}
+
+.left-side-content{
+    padding-top: 12%;
+    padding-left: 5%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.button{
+    padding: 16px 32px;
+    color: white;
+    background-color: orangered;
+}
+.button1:hover{
+    
+background-color: blue;
+}
+.midle-point{
+    
+    text-align: center;
+    padding-top: 5%;
+    font-size: 25px;
+}
+#mid-p{
+    font-size: 20px;
+}
+.mainhusslwork{
+    background-color: rgb(194, 206, 202);
+}
+
+.husslework{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 18px;
+   
+}
+.gym-location{
+    padding: 3%;
+    height: 29vh;
+    width: 50%;
+    text-align: center;
+    background-color: #D3D3D3;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.secondary-button{
+    margin-top: 80px;
+    text-align: center;
+}
+.button2{
+   justify-content: center;
+    padding: 16px 32px;
+    color: white;
+    background-color: black;
+}
