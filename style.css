@@ -149,4 +149,102 @@ background-color: blue;
     color: white;
     background-color: orangered;
     border-color: white;
+    font-size: 15px;
 }
+.mainlistclub{
+    padding-top: 5%;
+}
+.listClub{
+   
+    display: flex;
+    padding-top: 10%;
+    background-color: black;
+    
+}
+.clubimg img{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+
+    
+}
+.listofcontent{
+     font-size: 20px;
+     margin-right: 10%;
+     margin-top: 8%;
+     text-align: center;
+     color: white;
+}
+.button5{
+    padding: 16px 32px;
+    color: white;
+    font-size: 15px;
+    background-color: orangered;
+   
+}
+.faqhead{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5%;
+}
+.faq{
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 25px;
+    line-height: .08;
+}
+
+/* start footer area*/
+.footer-container {
+    padding: 100px;
+    line-height: 1.7;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.footer h5 {
+    margin-top: 50px;
+    word-spacing: 25px;
+    font-size: 14px;
+    text-align: center;
+    color: #8a8d91;
+
+}
+
+.footer h5 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Alegreya SC', serif;
+}
+
+.footer h5 a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+.footer p {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.footer p a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+/* End footer area*/
